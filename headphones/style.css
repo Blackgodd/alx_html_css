@@ -1,0 +1,208 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header and Navigation */
+    {
+    background: url(C:\Users\willi\alx_html_css\headphones\images\headphones_hero_1.jpg) center/cover no-repeat;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* Container 1 - Hero Section */
+.container1 {
+    background: url(\images\headphones_hero_1.jpg) center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.container1 h1 {
+    font-size: 36px;
+}
+
+.container1 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.container1 button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Container 2 - What We Do Section */
+.container2 {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.container2 h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.container2 p {
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.container2 div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container2 div div {
+    margin: 15px;
+    text-align: center;
+}
+
+.container2 div img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Container 3 - Our Results Section */
+.container3 {
+    background-image: url(\images\headphones_hero_2.jpg);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.container3 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.container3 p {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.container3 div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container3 div img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+/* Container 4 - Contact Us Section */
+.container4 {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Container 5 - Footer */
+footer {
+    background-color: #0d1b2a;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    height: 50px;
+}
+
+footer i {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
